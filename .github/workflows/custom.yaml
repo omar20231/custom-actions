@@ -1,0 +1,15 @@
+name: Coderco workflow
+on: [push]
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+     - name: checkout code
+       uses: actions/checkout@v2
+     - name: use our custom action
+       uses: omar20231/custom-actions@main
+       with:
+         who-to-greet: 'Omar'
