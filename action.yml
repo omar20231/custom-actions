@@ -9,7 +9,8 @@ input:
      default: hello
 
 outputs:
-  description: Time of greeting
+    time:
+      description: Time of greeting
 
 
 runs:
