@@ -12,4 +12,4 @@ jobs:
      - name: use our custom action
        uses: omar20231/custom-actions@main
        with:
-         who-to-greet: 'Omar' #error on this, unexpected input 
+         who-to-greet: 'Omar2' #error on this, unexpected input 
